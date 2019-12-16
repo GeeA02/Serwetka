@@ -1,0 +1,53 @@
+body{
+    background: #1e2022;
+    font-family: monospace;
+    color:#1e2022;
+}
+h1{
+    text-align: center;
+    color:#52616b;
+}
+table{
+    width:100%   
+}
+th{
+    background: #1e2022;
+    font-weight: bold;
+    color:#52616b;
+    font-size: larger;
+}
+td,th{
+    width:25%;
+}
+tr:nth-child(odd){
+    background: #f0f5f9;
+}
+tr:nth-child(even){
+    background: #c9d6df;
+}
+
+table,td{
+    border-color:#1e2022;
+    border:5px solid;
+    border-collapse:collapse;
+    opacity:0.9;
+    
+}
+img{
+    border-radius: 10px;
+    border:0.5px solid;
+    border-color: #1e2022;
+}
+img:hover{
+  -webkit-filter: drop-shadow(6px 6px 8px grey);
+  filter: drop-shadow(6px 6px 8px grey);
+}
+img:active{
+  -webkit-filter: blur(8px);
+  filter: blur(8px);
+}
+.author{
+    text-align: right;
+    color:#52616b;
+    font-size: smaller;
+}
